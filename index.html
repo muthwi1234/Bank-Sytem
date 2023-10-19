@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Banking System</h1>
+    </div>
+    <div class="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+    <div class="account-summary" id="accountSummary">
+        <!-- Display account information here -->
+    </div>
+    <div class="transaction">
+        <h2>Perform Transaction</h2>
+        <form id="transactionForm">
+            <input type="number" id="amount" placeholder="Amount">
+            <input type="text" id="receiver" placeholder="Receiver's Username">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="transaction-history" id="transactionHistory">
+        <!-- Display transaction history here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
